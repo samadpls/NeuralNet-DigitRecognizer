@@ -7,6 +7,7 @@ This project is a digit recognizer that uses a neural network to identify digits
 1. Clone the repository.
 2. Install the required dependencies.
 3. Run the `digit_recognizer.py` file. or  run on [colab](https://colab.research.google.com/github/samadpls/NeuralNet-DigitRecognizer/blob/main/digit_recognizer.ipynb)
+4. Simply view it on website https://bit.ly/NeuralNet-DigitRecognizer
 
 ## Dependencies
 1. NumPy
