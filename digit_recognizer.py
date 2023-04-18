@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
+@st.cache_data()
 def get_data():
     with np.load('./data/mnist.npz') as f:
         imgs, labels = f['x_train'], f['y_train']
@@ -66,8 +67,8 @@ def main():
 
     try:
        
-        index = st.number_input(f"Enter index for image {i+1} (0 - 59999):", min_value=0, max_value=59999)
-        img = images[index]
+        index = st.text_input(f"Enter index for image (0 - 59999):")
+        img = images[int(index)]
         fig, ax = plt.subplots()
         ax.imshow(img.reshape(28, 28), cmap="Greys")
 
@@ -82,7 +83,7 @@ def main():
         ax.set_title(f"Number at {index} index is {o.argmax()} :)")
         st.pyplot(fig)
     except Exception as e:
-        st.error("Error: " + str(e))
+        st.error("Must be number b/w 0-5999")
 
 if __name__ == "__main__":
     main()
