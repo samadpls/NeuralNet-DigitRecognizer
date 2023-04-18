@@ -1,5 +1,5 @@
 # Neural Network Digit Recognizer
-<img src="img1.png" height=50%>
+<img  src="pic.gif" height=50%>
 
 ## Introduction
 This project is a digit recognizer that uses a neural network to identify digits from images. The neural network is trained on the MNIST dataset, which consists of 60,000 training images and 10,000 test images. The project uses Python programming language.
