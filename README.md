@@ -1,2 +1,19 @@
-# NeuralNet-DigitRecognizer
-This repo uses a neural network to recognize digits from images. It trains the network using the backpropagation algorithm to minimize the error between predicted and actual labels. The code tests the network accuracy and allows the user to input an image to see the predicted digit. 🧠💻
+# Neural Network Digit Recognizer
+
+## Introduction
+This project is a digit recognizer that uses a neural network to identify digits from images. The neural network is trained on the MNIST dataset, which consists of 60,000 training images and 10,000 test images. The project uses Python programming language.
+
+## How to use
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the `digit_recognizer.py` file.
+
+## Dependencies
+1. NumPy
+2. Matplotlib
+
+## Acknowledgement
+I followed a YouTube tutorial to make this project as I am learning neural network, and this is considered as the "hello world" of neural networks.
+
+## Future Plans
+Currently, this project is written in Python, but my goal is to rewrite it in Scala. Scala is a powerful scalable language and is used for big data analysis. The main reason I love Scala is its functional programming paradigm, which makes code easier to read and maintain.
